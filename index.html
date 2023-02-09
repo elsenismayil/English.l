@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn English</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./navbar.css">
+</head>
+<body class="Navbar">
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a class="" href="./index.html">Common verbs – Part 1
+        </a>
+          <a href="./part2.html">Common verbs – Part 2</a>
+          <a href="./part3.html">Common verbs – Part 3
+        </a>
+        <a href="./part4.html">Common verbs – Part 4</a>
+        <a href="./wpart1.html">Common words – Part 1</a>
+        <a href="./wpart2.html">Common words – Part 2</a>
+        <a href="./wpart3.html">Common words – Part 3</a>
+        <a href="./part4.html">Common words – Part 4</a>
+        <a href="./wpart5.html">Common words – Part 5</a>
+        <a href="./wpart6.html">Common words – Part 6</a>
+        </div>
+      </div>
+      
+      
+      <div class="cen">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Seçin</span>
+      </div>
+      
+      <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+        
+
+      
+      }
+      
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+        
+        
+      }
+      </script>
+  
+ 
+    <div class="heading dc head">
+      Common verbs – Part 1
+    </div>
+    <div class="heading dc p-5 top">
+        Söz Aralğını Yazın
+    </div>
+    <div class="heading dc ">
+        Söz sayı: 200
+    </div>
+ 
+    <input class=" second" type="text">
+    <div class="icon-area">
+        <i class="fa-solid fa-arrow-up"></i>
+        <i class="fa-solid fa-arrow-down"></i>
+    </div>
+        <input class="p-5 ozu" type="text">
+    <div class="container">
+       
+        <div class="main-area">
+            <div class=" flex English dc"></div>
+            <div class="flex Aze dc"></div>
+        </div>
+        <div class="chose-area">
+            <button onclick="goster()" class="open">
+               Mənasını Göstər
+            </button>
+        </div>
+    </div>
+    <div class="button-area">
+        <button onclick="randomIntFromInterval()"  class="elave">Dəyiş</button>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
