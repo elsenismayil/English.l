@@ -56,4 +56,12 @@
   .Navbar .overlay .overlay-content a{
     font-size: 25px;
   }
+  .cen{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .top{
+    margin-top: 50px;
+  }
   
